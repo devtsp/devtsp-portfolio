@@ -26,7 +26,7 @@ const Stack = () => {
 				I have hands-on experience on building <span>client</span> and{' '}
 				<span>server</span> side applications with the following tools:
 			</h1>
-			<div className="decorator"></div>
+			<div className="separator"></div>
 			<img src={html} alt="html" />
 			<img src={css} alt="css" />
 			<img src={javascript} alt="javascript" />
@@ -45,7 +45,7 @@ const Stack = () => {
 			<img src={sass} alt="sass" />
 			<img src={jest} alt="jest" />
 			<img src={cypress} alt="cypress" />
-			<div className="decorator"></div>
+			<div className="separator"></div>
 		</div>
 	);
 };

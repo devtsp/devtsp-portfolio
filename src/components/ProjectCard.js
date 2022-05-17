@@ -1,10 +1,21 @@
 import React from 'react';
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 const ProjectCard = ({ project }) => {
 	return (
 		<div id="ProjectCard">
-			<div className="img-container">
-				<img src={project.img} alt={project.title} />
+			<div className="slide-container">
+				<Fade autoplay={true} duration={1000} arrows={false}>
+					{project.previews.map((preview, i) => (
+						<div className="each-fade" key={i}>
+							<div className="image-container">
+								<img key={i} src={preview} alt={project.title} />
+							</div>
+							<h2>{preview.caption}</h2>
+						</div>
+					))}
+				</Fade>
 			</div>
 			<h1># {project.title} </h1>
 			<a href={project.sourceCode} target="_blank" rel="noreferrer">

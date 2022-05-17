@@ -32,7 +32,7 @@ ul {
 #Navbar {
 	display: flex;
 	justify-content: center;
-	border-bottom: 2px solid lightgray;
+	border-bottom: 2px solid gray;
 }
 
 #Navbar a {
@@ -68,18 +68,18 @@ ul {
 
 #About p {
 	font-size: 2rem;
-	color: slategray;
 	margin-bottom: 1.4rem;
 	font-family: 'bell mt';
 }
 
-#About p:nth-child(3) {
-	padding: 3rem 0;
-	margin: 3rem 0;
-	border-top: 2px solid lightblue;
-	border-bottom: 2px solid lightblue;
-	color: black;
+#About p:nth-child(4) {
+	padding: 1rem 0;
+	margin: 1rem 0;
 	font-size: 2.2rem;
+}
+
+#About p:nth-child(6) {
+	font-size: 1.6rem;
 }
 
 #About a {
@@ -99,17 +99,18 @@ ul {
 
 /* PROJECT CARD */
 
-#ProjectCard .img-container {
-	height: 420px;
-	width: 600px;
-	border: 2px solid lightgray;
+#ProjectCard .slide-container {
+	width: 80%;
+	box-shadow: 0 0 30px -16px lightgray;
+	border-radius: 1rem;
 	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
-#ProjectCard .img-container img {
+#ProjectCard .slide-container img {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
 	max-height: 100%;
 	max-width: 100%;
 }
@@ -171,13 +172,15 @@ ul {
 	margin: 0 0.8rem;
 }
 
-.decorator {
+.separator {
 	width: 70%;
 	margin: 2rem auto;
 	height: 0.2rem;
 	background: lavenderblush;
 }
 /* ======== FADE EFFECTS ============ */
+
+/* PAGE FADES */
 
 .fadeIn {
 	animation: 0.25s fadeIn forwards;
