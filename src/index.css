@@ -17,6 +17,12 @@ code {
 	margin: 0;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 #App {
 	margin: 0 20px;
 }
@@ -75,6 +81,67 @@ code {
 	height: 6px;
 	background: linear-gradient(to right, white, lavenderblush 14% 86%, white);
 }
+
+/* ======== PROJECTS ======== */
+
+#Projects {
+	margin: 0 auto;
+}
+
+#Projects li {
+	text-align: center;
+	margin: 2rem 0 4rem;
+}
+
+/* PROJECT CARD */
+
+#ProjectCard .img-container {
+	height: 420px;
+	width: 600px;
+	border: 2px solid lightgray;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#ProjectCard .img-container img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#ProjectCard h1 {
+	margin: 1rem 0;
+	font-family: dubai;
+}
+
+#ProjectCard a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: navy;
+	border-bottom: 1px solid navy;
+	border-top: 1px solid navy;
+	text-decoration: none;
+	padding: 0 1rem;
+	margin: 0 2rem;
+	font-size: 1.6rem;
+}
+
+#ProjectCard span {
+	margin: 0 1rem;
+}
+
+#ProjectCard a:visited {
+	color: navy;
+	padding: 0 1rem;
+	font-size: 1.6rem;
+}
+
+#ProjectCard svg {
+	height: 1.4rem;
+}
+
 /* ======== STACK ======== */
 
 #Stack {
@@ -97,8 +164,15 @@ code {
 
 #Stack img {
 	height: 4rem;
+	margin: 0 0.8rem;
 }
 
+.decorator {
+	width: 70%;
+	margin: 2rem auto;
+	height: 0.2rem;
+	background: lavenderblush;
+}
 /* ======== FADE EFFECTS ============ */
 
 .fadeIn {
