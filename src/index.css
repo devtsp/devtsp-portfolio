@@ -68,18 +68,22 @@ ul {
 
 #About p {
 	font-size: 2rem;
+	color: slategray;
 	margin-bottom: 1.4rem;
 	font-family: 'bell mt';
 }
 
-#About a {
-	color: navy;
+#About p:nth-child(3) {
+	padding: 3rem 0;
+	margin: 3rem 0;
+	border-top: 2px solid lightblue;
+	border-bottom: 2px solid lightblue;
+	color: black;
+	font-size: 2.2rem;
 }
 
-#separator {
-	margin: 3rem 0;
-	height: 6px;
-	background: linear-gradient(to right, white, lavenderblush 14% 86%, white);
+#About a {
+	color: navy;
 }
 
 /* ======== PROJECTS ======== */
