@@ -12,11 +12,13 @@ function App() {
 		<div id="App">
 			<BrowserRouter>
 				<Navbar></Navbar>
-				<TransitionGroup>
-					<Route path="/" element={<About />} />
-					<Route path="projects" element={<Projects />} />
-					<Route path="stack" element={<Stack />} />
-				</TransitionGroup>
+				<div id="body">
+					<TransitionGroup>
+						<Route path="/" element={<About />} />
+						<Route path="projects" element={<Projects />} />
+						<Route path="stack" element={<Stack />} />
+					</TransitionGroup>
+				</div>
 			</BrowserRouter>
 		</div>
 	);

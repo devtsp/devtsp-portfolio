@@ -26,7 +26,7 @@ code {
 #Navbar {
 	display: flex;
 	justify-content: center;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid lightgray;
 }
 
 #Navbar a {
@@ -35,6 +35,13 @@ code {
 	color: black;
 	font-size: 1.4rem;
 	transition: color 0.5s ease;
+}
+
+/* ======== BODY ========== */
+
+#body {
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 /* ======== ABOUT ========= */
@@ -49,6 +56,8 @@ code {
 	font-family: dubai;
 	font-size: 3rem;
 	margin: 3rem 0;
+	color: navy;
+	line-height: 1.2;
 }
 
 #About p {
@@ -58,14 +67,38 @@ code {
 }
 
 #About a {
-	color: rgb(50, 55, 133);
+	color: navy;
 }
 
 #separator {
 	margin: 3rem 0;
-	height: 10px;
+	height: 6px;
 	background: linear-gradient(to right, white, lavenderblush 14% 86%, white);
 }
+/* ======== STACK ======== */
+
+#Stack {
+	padding: 0 3rem;
+	text-align: center;
+	line-height: 1.4;
+}
+
+#Stack h1 {
+	font-family: dubai;
+	font-size: 3rem;
+	margin: 3rem 0;
+	color: navy;
+	line-height: 1.2;
+}
+
+#Stack h1 span {
+	color: orchid;
+}
+
+#Stack img {
+	height: 4rem;
+}
+
 /* ======== FADE EFFECTS ============ */
 
 .fadeIn {

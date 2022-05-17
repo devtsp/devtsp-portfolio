@@ -10,9 +10,9 @@ const About = () => {
 			</p>
 			<p>
 				I understand the importance of well written <strong>tests</strong>,
-				proper folder tree <strong>organization and naming</strong> and overall
-				code<strong> legibility/mantainability</strong>, and I will drop those
-				juicy{' '}
+				proper folder tree <strong>organization</strong> and{' '}
+				<strong>naming conventions,</strong> code
+				<strong> legibility/mantainability</strong>, and I will drop those juicy{' '}
 				<a href="https://www.alpharithms.com/solid-guidelines-for-better-software-development-055500/">
 					SOLID
 				</a>{' '}
@@ -28,7 +28,7 @@ const About = () => {
 				<a href="mailto:paeztms@gmail.com" target="_blank" rel="noreferrer">
 					paeztms@gmail.com
 				</a>{' '}
-				if some of these lines resonates with your organization's principles
+				if some of these concepts resonate with your organization's principles
 			</p>
 		</div>
 	);
