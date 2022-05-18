@@ -12,13 +12,13 @@ const Navbar = () => {
 				ABOUT
 			</NavLink>
 			<NavLink
-				to="projects"
+				to="/projects"
 				style={({ isActive }) => (isActive ? activeStyle : null)}
 			>
 				PROJECTS
 			</NavLink>
 			<NavLink
-				to="stack"
+				to="/stack"
 				style={({ isActive }) => (isActive ? activeStyle : null)}
 			>
 				STACK
