@@ -59,16 +59,6 @@ const projects = [
 		],
 	},
 	{
-		title: 'pokedex',
-		deployed: true,
-		sourceCode: 'https://github.com/devtsp/pokedex',
-		site: 'https://devtsp.github.io/pokedex/',
-		previews: [
-			'./img/project%20previews/pokedex/1.jpg',
-			'./img/project%20previews/pokedex/2.jpg',
-		],
-	},
-	{
 		title: 'clubs',
 		deployed: true,
 		sourceCode: 'https://github.com/devtsp/crud-clubs-FRONT',
@@ -78,6 +68,16 @@ const projects = [
 			'./img/project%20previews/clubs/2.jpg',
 			'./img/project%20previews/clubs/3.jpg',
 			'./img/project%20previews/clubs/4.jpg',
+		],
+	},
+	{
+		title: 'pokedex',
+		deployed: true,
+		sourceCode: 'https://github.com/devtsp/pokedex',
+		site: 'https://devtsp.github.io/pokedex/',
+		previews: [
+			'./img/project%20previews/pokedex/1.jpg',
+			'./img/project%20previews/pokedex/2.jpg',
 		],
 	},
 ];

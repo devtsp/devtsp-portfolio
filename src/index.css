@@ -25,6 +25,7 @@ ul {
 
 #App {
 	margin: 0 20px;
+	width: 100%;
 }
 
 /* ======== NAVBAR ========= */
@@ -216,5 +217,50 @@ ul {
 	to {
 		transform: translate(-20px, 0);
 		opacity: 0;
+	}
+}
+
+@media all and (max-width: 560px) {
+	:root {
+		font-size: 12px;
+	}
+	#App {
+		margin: 0;
+		width: 100%;
+	}
+	.ProjectCard .links-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ProjectCard a {
+		border-top: none;
+		width: fit-content;
+		margin: 0.4rem 2rem;
+		font-size: 1.6rem;
+	}
+
+	#Stack h1 {
+		font-size: 2rem;
+	}
+
+	#About {
+		padding: 1rem;
+	}
+
+	#About h1 {
+		font-size: 3rem;
+		margin: 2rem 0;
+	}
+
+	#About p {
+		margin: 0;
+		padding: 0 1rem !important;
+	}
+
+	#About .separator {
+		margin: 1rem auto;
 	}
 }
