@@ -4,33 +4,39 @@ import 'react-slideshow-image/dist/styles.css';
 
 const ProjectCard = ({ project }) => {
 	return (
-		<div id="ProjectCard">
+		<div className="ProjectCard">
 			<div className="slide-container">
-				<Fade autoplay={true} duration={1000} arrows={false}>
+				<Fade
+					autoplay={true}
+					duration={2000}
+					arrows={false}
+					pauseOnHover={false}
+				>
 					{project.previews.map((preview, i) => (
 						<div className="each-fade" key={i}>
 							<div className="image-container">
 								<img key={i} src={preview} alt={project.title} />
 							</div>
-							<h2>{preview.caption}</h2>
 						</div>
 					))}
 				</Fade>
 			</div>
 			<h1># {project.title} </h1>
-			<a href={project.sourceCode} target="_blank" rel="noreferrer">
-				{code}
-				<span>source code</span>
-			</a>
-			<a
-				href={project.site}
-				target="_blank"
-				rel="noreferrer"
-				style={project.deployed ? {} : disabledStyle}
-			>
-				<span>go to site</span>
-				{globe(project.deployed)}
-			</a>
+			<div className="links-container">
+				<a href={project.sourceCode} target="_blank" rel="noreferrer">
+					{code}
+					<span>source code</span>
+				</a>
+				<a
+					href={project.site}
+					target="_blank"
+					rel="noreferrer"
+					style={project.deployed ? {} : disabledStyle}
+				>
+					<span>go to site</span>
+					{globe(project.deployed)}
+				</a>
+			</div>
 		</div>
 	);
 };

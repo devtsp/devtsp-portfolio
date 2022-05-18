@@ -32,7 +32,7 @@ ul {
 #Navbar {
 	display: flex;
 	justify-content: center;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid lightgray;
 }
 
 #Navbar a {
@@ -99,51 +99,58 @@ ul {
 
 /* PROJECT CARD */
 
-#ProjectCard .slide-container {
-	width: 80%;
-	box-shadow: 0 0 30px -16px lightgray;
-	border-radius: 1rem;
+.ProjectCard {
+	margin: 4rem 0 7rem 0;
+}
+
+.ProjectCard .image-container {
+	width: 70%;
+	line-height: 0;
 	margin: 0 auto;
 }
 
-#ProjectCard .slide-container img {
-	left: 0;
-	top: 0;
+.ProjectCard img {
 	width: 100%;
-	height: auto;
-	max-height: 100%;
-	max-width: 100%;
+	border-radius: 0.8rem;
+	box-shadow: 0 0 30px -20px black;
+	border-bottom: 5px solid slateblue;
 }
 
-#ProjectCard h1 {
+.ProjectCard h1 {
 	margin: 1rem 0;
 	font-family: dubai;
 }
 
-#ProjectCard a {
+.ProjectCard .links-container {
+	display: flex;
+	justify-content: center;
+}
+
+.ProjectCard a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	color: navy;
-	border-bottom: 1px solid navy;
-	border-top: 1px solid navy;
+	border: 1px solid navy;
+	border-right: none;
+	border-left: none;
 	text-decoration: none;
 	padding: 0 1rem;
 	margin: 0 2rem;
 	font-size: 1.6rem;
 }
 
-#ProjectCard span {
+.ProjectCard span {
 	margin: 0 1rem;
 }
 
-#ProjectCard a:visited {
+.ProjectCard a:visited {
 	color: navy;
 	padding: 0 1rem;
 	font-size: 1.6rem;
 }
 
-#ProjectCard svg {
+.ProjectCard svg {
 	height: 1.4rem;
 }
 
