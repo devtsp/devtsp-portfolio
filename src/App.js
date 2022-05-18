@@ -13,8 +13,8 @@ function App() {
 				<div id="body">
 					<TransitionGroup>
 						<Route path="/" element={<About />} />
-						<Route path="projects" element={<Projects />} />
-						<Route path="stack" element={<Stack />} />
+						<Route path="/projects" element={<Projects />} />
+						<Route path="/stack" element={<Stack />} />
 						<Route
 							path="*"
 							element={

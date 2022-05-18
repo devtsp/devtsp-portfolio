@@ -2,7 +2,7 @@
 	"name": "devtsp-portfolio",
 	"version": "0.1.0",
 	"private": false,
-	"homepage": "https://devtsp.github.io/devtsp-portfolio/",
+	"homepage": "https://devtsp.github.io/devtsp-portfolio",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.4",
 		"@testing-library/react": "^13.2.0",

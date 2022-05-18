@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
 							<div className="image-container">
 								<img
 									key={i}
-									src={process.env.PUBLIC_URL + '/' + preview}
+									src={process.env.PUBLIC_URL + preview}
 									alt={project.title}
 								/>
 							</div>
