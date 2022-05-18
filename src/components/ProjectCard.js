@@ -15,7 +15,11 @@ const ProjectCard = ({ project }) => {
 					{project.previews.map((preview, i) => (
 						<div className="each-fade" key={i}>
 							<div className="image-container">
-								<img key={i} src={preview} alt={project.title} />
+								<img
+									key={i}
+									src={process.env.PUBLIC_URL + '/' + preview}
+									alt={project.title}
+								/>
 							</div>
 						</div>
 					))}
