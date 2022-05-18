@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devtsp-portfolio/static/css/main.9b368f78.css",
-    "main.js": "/devtsp-portfolio/static/js/main.00bd5cbf.js",
+    "main.js": "/devtsp-portfolio/static/js/main.1a3b7572.js",
     "static/media/bootstrap.png": "/devtsp-portfolio/static/media/bootstrap.e339e0737dd5a094fa31.png",
     "static/media/graphql.png": "/devtsp-portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/github.png": "/devtsp-portfolio/static/media/github.57888c1ec99df121859f.png",
@@ -20,10 +20,10 @@
     "static/media/css.svg": "/devtsp-portfolio/static/media/css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html.svg": "/devtsp-portfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.9b368f78.css.map": "/devtsp-portfolio/static/css/main.9b368f78.css.map",
-    "main.00bd5cbf.js.map": "/devtsp-portfolio/static/js/main.00bd5cbf.js.map"
+    "main.1a3b7572.js.map": "/devtsp-portfolio/static/js/main.1a3b7572.js.map"
   },
   "entrypoints": [
     "static/css/main.9b368f78.css",
-    "static/js/main.00bd5cbf.js"
+    "static/js/main.1a3b7572.js"
   ]
 }
