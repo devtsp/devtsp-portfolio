@@ -28,9 +28,9 @@ const projects = [
 	},
 	{
 		title: 'blog',
-		deployed: false,
+		deployed: true,
 		sourceCode: 'https://github.com/devtsp/blog',
-		site: 'https://delightful-cascaron-53270c.netlify.app/',
+		site: 'https://devtsp.github.io/blog/',
 		previews: [
 			'/img/project%20previews/blog/1.jpg',
 			'/img/project%20previews/blog/2.jpg',
