@@ -61,8 +61,8 @@ const projects = [
 	{
 		title: 'clubs',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/football-clubs-client',
-		site: 'https://devtsp.github.io/football-clubs-client/',
+		sourceCode: 'https://github.com/devtsp/football-clubs-vanilla-client',
+		site: 'https://devtsp.github.io/football-clubs-vanilla-client/',
 		previews: [
 			'/img/project%20previews/clubs/1.jpg',
 			'/img/project%20previews/clubs/2.jpg',
