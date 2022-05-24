@@ -1,1 +1,1 @@
-## my web porfolio! [Take a look](https://devtsp.github.io/devtsp-portfolio)
+# [My personal web porfolio](https://devtsp.github.io/devtsp-portfolio)
