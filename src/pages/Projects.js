@@ -29,8 +29,8 @@ const projects = [
 	{
 		title: 'blog',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/blog',
-		site: 'https://devtsp.github.io/blog/',
+		sourceCode: 'https://github.com/devtsp/blog-client',
+		site: 'https://devtsp.github.io/blog-client/',
 		previews: [
 			'/img/project%20previews/blog/1.jpg',
 			'/img/project%20previews/blog/2.jpg',
@@ -40,8 +40,8 @@ const projects = [
 	{
 		title: 'exchange rates',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/exchange-rates',
-		site: 'https://devtsp.github.io/exchange-rates/',
+		sourceCode: 'https://github.com/devtsp/exchange-rates-client',
+		site: 'https://devtsp.github.io/exchange-rates-client/',
 		previews: [
 			'/img/project%20previews/exchange%20rates/1.jpg',
 			'/img/project%20previews/exchange%20rates/2.jpg',
@@ -50,8 +50,8 @@ const projects = [
 	{
 		title: 'memotest',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/memotest',
-		site: 'https://devtsp.github.io/memotest/',
+		sourceCode: 'https://github.com/devtsp/memotest-client',
+		site: 'https://devtsp.github.io/memotest-client/',
 		previews: [
 			'/img/project%20previews/memotest/1.jpg',
 			'/img/project%20previews/memotest/2.jpg',
@@ -61,8 +61,8 @@ const projects = [
 	{
 		title: 'clubs',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/crud-clubs-FRONT',
-		site: 'https://devtsp.github.io/crud-clubs-FRONT/',
+		sourceCode: 'https://github.com/devtsp/football-clubs-client',
+		site: 'https://devtsp.github.io/football-clubs-client/',
 		previews: [
 			'/img/project%20previews/clubs/1.jpg',
 			'/img/project%20previews/clubs/2.jpg',
@@ -73,8 +73,8 @@ const projects = [
 	{
 		title: 'pokedex',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/pokedex',
-		site: 'https://devtsp.github.io/pokedex/',
+		sourceCode: 'https://github.com/devtsp/pokedex-vanilla-client',
+		site: 'https://devtsp.github.io/pokedex-vanilla-client/',
 		previews: [
 			'/img/project%20previews/pokedex/1.jpg',
 			'/img/project%20previews/pokedex/2.jpg',
