@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/devtsp-portfolio-client/static/css/main.5c360c8a.css",
-    "main.js": "/devtsp-portfolio-client/static/js/main.e7617a47.js",
+    "main.js": "/devtsp-portfolio-client/static/js/main.683dee4d.js",
     "index.html": "/devtsp-portfolio-client/index.html",
     "main.5c360c8a.css.map": "/devtsp-portfolio-client/static/css/main.5c360c8a.css.map",
-    "main.e7617a47.js.map": "/devtsp-portfolio-client/static/js/main.e7617a47.js.map"
+    "main.683dee4d.js.map": "/devtsp-portfolio-client/static/js/main.683dee4d.js.map"
   },
   "entrypoints": [
     "static/css/main.5c360c8a.css",
-    "static/js/main.e7617a47.js"
+    "static/js/main.683dee4d.js"
   ]
 }
