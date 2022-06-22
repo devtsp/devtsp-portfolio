@@ -17,9 +17,9 @@ const Projects = () => {
 const projects = [
 	{
 		title: 'stocktaking',
-		deployed: false,
+		deployed: true,
 		sourceCode: 'https://github.com/devtsp/stocktaking-server',
-		site: 'https://devtsp.github.io/pokedex-vanilla-client/',
+		site: 'https://devtsp.github.io/stocktaking-client/',
 		previews: [
 			'/img/project%20previews/stocktaking/1.jpg',
 			'/img/project%20previews/stocktaking/2.jpg',
