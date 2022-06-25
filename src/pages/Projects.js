@@ -51,8 +51,8 @@ const projects = [
 	{
 		title: 'social media',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/social-media-app-client',
-		site: 'https://delightful-cascaron-53270c.netlify.app/',
+		sourceCode: 'https://github.com/devtsp/social-media-client',
+		site: 'https://devtsp.github.io/social-media-client',
 		previews: [
 			'/img/project%20previews/social%20media/1.jpg',
 			'/img/project%20previews/social%20media/2.jpg',
