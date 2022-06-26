@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 const About = () => {
 	return (
 		<div id="About">
-			<h1> &lt; Fullstack Javascript developer /&gt; </h1>
+			<h1>
+				{' '}
+				<span>&lt; Fullstack </span> <span> Javascript </span>{' '}
+				<span> developer /&gt; </span>
+			</h1>
 			<div className="separator"></div>
 			<p>
 				Constantly working on different kind of projects to expand my skills and
-				strengthen the fundamentals.
+				explore new technologies.
 			</p>
 			<p>
 				I prefer to let my work speak by itself. Take a look at some of my{' '}

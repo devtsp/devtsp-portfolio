@@ -80,6 +80,10 @@ ul {
 	line-height: 1.2;
 }
 
+#About h1 span {
+	white-space: nowrap;
+}
+
 #About p {
 	font-size: 2rem;
 	margin-bottom: 1.4rem;

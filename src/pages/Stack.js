@@ -38,6 +38,7 @@ const stack = {
 	sass: '/img/stack%20icons/sass.png',
 	jest: '/img/stack%20icons/jest.png',
 	cypress: '/img/stack%20icons/cypress.svg',
+	testing_library: '/img/stack%20icons/testing-library.png',
 };
 
 const Stack = () => {
@@ -48,24 +49,27 @@ const Stack = () => {
 				<span>server</span> side applications with the following tools:
 			</h1>
 			<div className="separator"></div>
-			<img src={process.env.PUBLIC_URL + stack.html} alt="html" />
+			{/* <img src={process.env.PUBLIC_URL + stack.html} alt="html" />
 			<img src={process.env.PUBLIC_URL + stack.css} alt="css" />
-			<img src={process.env.PUBLIC_URL + stack.javascript} alt="javascript" />
+			<img src={process.env.PUBLIC_URL + stack.javascript} alt="javascript" /> */}
+			<img src={process.env.PUBLIC_URL + stack.react} alt="react" />
+			<img src={process.env.PUBLIC_URL + stack.redux} alt="redux" />
 			<img src={process.env.PUBLIC_URL + stack.node} alt="node" />
 			<img src={process.env.PUBLIC_URL + stack.express} alt="express" />
 			<img src={process.env.PUBLIC_URL + stack.mongodb} alt="mongodb" />
 			<img src={process.env.PUBLIC_URL + stack.mysql} alt="mysql" />
 			<img src={process.env.PUBLIC_URL + stack.graphql} alt="graphql" />
 			<img src={process.env.PUBLIC_URL + stack.apollo} alt="apollo" />
-			<img src={process.env.PUBLIC_URL + stack.react} alt="react" />
-			<img src={process.env.PUBLIC_URL + stack.semanticui} alt="semantic ui" />
-			<img src={process.env.PUBLIC_URL + stack.redux} alt="redux" />
-			<img src={process.env.PUBLIC_URL + stack.git} alt="git" />
-			<img src={process.env.PUBLIC_URL + stack.github} alt="github" />
-			<img src={process.env.PUBLIC_URL + stack.bootstrap} alt="bootstrap" />
+			{/* <img src={process.env.PUBLIC_URL + stack.semanticui} alt="semantic ui" /> */}
+			{/* <img src={process.env.PUBLIC_URL + stack.bootstrap} alt="bootstrap" /> */}
 			<img src={process.env.PUBLIC_URL + stack.sass} alt="sass" />
 			<img src={process.env.PUBLIC_URL + stack.jest} alt="jest" />
 			<img src={process.env.PUBLIC_URL + stack.cypress} alt="cypress" />
+			<img
+				src={process.env.PUBLIC_URL + stack.testing_library}
+				alt="testing-library"
+			/>
+			<img src={process.env.PUBLIC_URL + stack.git} alt="git" />
 			<div className="separator"></div>
 		</div>
 	);

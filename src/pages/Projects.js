@@ -62,12 +62,9 @@ const projects = [
 	{
 		title: 'pokedex',
 		deployed: true,
-		sourceCode: 'https://github.com/devtsp/pokedex-vanilla-client',
-		site: 'https://devtsp.github.io/pokedex-vanilla-client/',
-		previews: [
-			'/img/project%20previews/pokedex/1.jpg',
-			'/img/project%20previews/pokedex/2.jpg',
-		],
+		sourceCode: 'https://github.com/devtsp/pokedex-client',
+		site: 'https://devtsp.github.io/pokedex-client/',
+		previews: ['/img/project%20previews/pokedex/1.jpg'],
 	},
 	{
 		title: 'memotest',
