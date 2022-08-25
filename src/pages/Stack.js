@@ -1,77 +1,72 @@
 import React from 'react';
 
-// import html from '../public/img/stack icons/html.svg';
-// import css from '../img/stack icons/css.svg';
-// import javascript from '../img/stack icons/javascript.svg';
-// import node from '../img/stack icons/node.png';
-// import express from '../img/stack icons/express.png';
-// import mongodb from '../img/stack icons/mongodb.png';
-// import mysql from '../img/stack icons/mysql.png';
-// import graphql from '../img/stack icons/graphql.png';
-// import apollo from '../img/stack icons/apollo.png';
-// import react from '../img/stack icons/react.svg';
-// import redux from '../img/stack icons/redux.png';
-// import semanticui from '../img/stack icons/semanticui.png';
-// import git from '../img/stack icons/git.png';
-// import github from '../img/stack icons/github.png';
-// import bootstrap from '../img/stack icons/bootstrap.png';
-// import sass from '../img/stack icons/sass.png';
-// import jest from '../img/stack icons/jest.png';
-// import cypress from '../img/stack icons/cypress.svg';
+import styles from './Stack.module.scss';
 
-const stack = {
-	html: '/img/stack%20icons/html.svg',
-	css: '/img/stack%20icons/css.svg',
-	javascript: '/img/stack%20icons/javascript.svg',
-	node: '/img/stack%20icons/node.png',
-	express: '/img/stack%20icons/express.png',
-	mongodb: '/img/stack%20icons/mongodb.png',
-	mysql: '/img/stack%20icons/mysql.png',
-	graphql: '/img/stack%20icons/graphql.png',
-	apollo: '/img/stack%20icons/apollo.png',
-	react: '/img/stack%20icons/react.svg',
-	redux: '/img/stack%20icons/redux.png',
-	semanticui: '/img/stack%20icons/semanticui.png',
-	git: '/img/stack%20icons/git.png',
-	github: '/img/stack%20icons/github.png',
-	bootstrap: '/img/stack%20icons/bootstrap.png',
-	sass: '/img/stack%20icons/sass.png',
-	jest: '/img/stack%20icons/jest.png',
-	cypress: '/img/stack%20icons/cypress.svg',
-	testing_library: '/img/stack%20icons/testing-library.png',
-};
+import {
+	react,
+	redux,
+	node,
+	express,
+	mongodb,
+	mysql,
+	graphql,
+	apollo,
+	sass,
+	jest,
+	cypress,
+	rtl,
+	git,
+} from '../constants/stack';
 
 const Stack = () => {
 	return (
-		<div id="Stack">
-			<h1>
+		<section className={styles.container}>
+			<h1 className={styles.header}>
 				I have hands-on experience on building <span>client</span> and{' '}
 				<span>server</span> side applications with the following tools:
 			</h1>
-			<div className="separator"></div>
-			{/* <img src={process.env.PUBLIC_URL + stack.html} alt="html" />
-			<img src={process.env.PUBLIC_URL + stack.css} alt="css" />
-			<img src={process.env.PUBLIC_URL + stack.javascript} alt="javascript" /> */}
-			<img src={process.env.PUBLIC_URL + stack.react} alt="react" />
-			<img src={process.env.PUBLIC_URL + stack.redux} alt="redux" />
-			<img src={process.env.PUBLIC_URL + stack.node} alt="node" />
-			<img src={process.env.PUBLIC_URL + stack.express} alt="express" />
-			<img src={process.env.PUBLIC_URL + stack.mongodb} alt="mongodb" />
-			<img src={process.env.PUBLIC_URL + stack.mysql} alt="mysql" />
-			<img src={process.env.PUBLIC_URL + stack.graphql} alt="graphql" />
-			<img src={process.env.PUBLIC_URL + stack.apollo} alt="apollo" />
-			{/* <img src={process.env.PUBLIC_URL + stack.semanticui} alt="semantic ui" /> */}
-			{/* <img src={process.env.PUBLIC_URL + stack.bootstrap} alt="bootstrap" /> */}
-			<img src={process.env.PUBLIC_URL + stack.sass} alt="sass" />
-			<img src={process.env.PUBLIC_URL + stack.jest} alt="jest" />
-			<img src={process.env.PUBLIC_URL + stack.cypress} alt="cypress" />
-			<img
-				src={process.env.PUBLIC_URL + stack.testing_library}
-				alt="testing-library"
-			/>
-			<img src={process.env.PUBLIC_URL + stack.git} alt="git" />
-			<div className="separator"></div>
-		</div>
+			<div className={styles.separator}></div>
+			<abbr title="React">
+				<img src={process.env.PUBLIC_URL + react} alt="react" />
+			</abbr>
+			<abbr title="Redux">
+				<img src={process.env.PUBLIC_URL + redux} alt="redux" />
+			</abbr>
+			<abbr title="Node">
+				<img src={process.env.PUBLIC_URL + node} alt="node" />
+			</abbr>
+			<abbr title="Express">
+				<img src={process.env.PUBLIC_URL + express} alt="express" />
+			</abbr>
+			<abbr title="Mongo DB">
+				<img src={process.env.PUBLIC_URL + mongodb} alt="mongodb" />
+			</abbr>
+			<abbr title="MySQL">
+				<img src={process.env.PUBLIC_URL + mysql} alt="mysql" />
+			</abbr>
+			<abbr title="GraphQL">
+				<img src={process.env.PUBLIC_URL + graphql} alt="graphql" />
+			</abbr>
+			<abbr title="Apollo">
+				<img src={process.env.PUBLIC_URL + apollo} alt="apollo" />
+			</abbr>
+			<abbr title="Sass">
+				<img src={process.env.PUBLIC_URL + sass} alt="sass" />
+			</abbr>
+			<abbr title="Jest">
+				<img src={process.env.PUBLIC_URL + jest} alt="jest" />
+			</abbr>
+			<abbr title="Cypress">
+				<img src={process.env.PUBLIC_URL + cypress} alt="cypress" />
+			</abbr>
+			<abbr title="Testing Library">
+				<img src={process.env.PUBLIC_URL + rtl} alt="testing-library" />
+			</abbr>
+			<abbr title="Git">
+				<img src={process.env.PUBLIC_URL + git} alt="git" />
+			</abbr>
+			<div className={styles.separator}></div>
+		</section>
 	);
 };
 

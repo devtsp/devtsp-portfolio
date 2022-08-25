@@ -1,0 +1,55 @@
+.container {
+	margin: 4rem 0 7rem 0;
+}
+
+.image_container {
+	width: 70%;
+	line-height: 2;
+	margin: 0 auto;
+	cursor: pointer;
+
+	img {
+		width: 100%;
+		border-radius: 0.8rem;
+		box-shadow: 0 0 30px -20px black;
+		border-bottom: 5px solid slateblue;
+	}
+}
+
+.project_title {
+	margin: 1rem 0;
+	font-size: 2rem;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		color: navy;
+		border: 1px solid navy;
+		border-right: none;
+		border-left: none;
+		text-decoration: none;
+		padding: 0.2rem;
+		margin: 0 1rem;
+		font-size: 1.6rem;
+
+		span {
+			margin: 0;
+		}
+
+		&:visited {
+			color: navy;
+			padding: 0 1rem;
+			font-size: 1.6rem;
+		}
+	}
+
+	svg {
+		height: 1.4rem;
+	}
+}
