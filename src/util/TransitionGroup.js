@@ -1,22 +1,24 @@
 import { useEffect, useState } from 'react';
 import { useLocation, Routes } from 'react-router-dom';
 
+import styles from './TransitionGroup.module.scss';
+
 const TransitionGroup = ({ children }) => {
 	const location = useLocation();
 
 	const [displayLocation, setDisplayLocation] = useState(location);
-	const [transitionStage, setTransistionStage] = useState('fadeIn');
+	const [transitionStage, setTransistionStage] = useState(styles.fadeIn);
 
 	useEffect(() => {
-		if (location !== displayLocation) setTransistionStage('fadeOut');
+		if (location !== displayLocation) setTransistionStage(styles.fadeOut);
 	}, [location, displayLocation]);
 
 	return (
 		<div
 			className={`${transitionStage}`}
 			onAnimationEnd={() => {
-				if (transitionStage === 'fadeOut') {
-					setTransistionStage('fadeIn');
+				if (transitionStage === styles.fadeOut) {
+					setTransistionStage(styles.fadeIn);
 					setDisplayLocation(location);
 				}
 			}}

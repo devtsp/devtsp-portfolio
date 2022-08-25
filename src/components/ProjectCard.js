@@ -2,10 +2,15 @@ import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
+import styles from './ProjectCard.module.scss';
+
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="ProjectCard">
-			<div className="slide-container">
+		<article className={styles.container}>
+			<div
+				className={styles.image_container}
+				onClick={() => window.open(project.site, '_blank')}
+			>
 				<Fade
 					autoplay={true}
 					duration={2000}
@@ -25,8 +30,8 @@ const ProjectCard = ({ project }) => {
 					))}
 				</Fade>
 			</div>
-			<h1># {project.title} </h1>
-			<div className="links-container">
+			<h1 className={styles.project_title}># {project.title} </h1>
+			<div className={styles.links}>
 				<a href={project.sourceCode} target="_blank" rel="noreferrer">
 					{code}
 					<span>source code</span>
@@ -41,7 +46,7 @@ const ProjectCard = ({ project }) => {
 					{globe(project.deployed)}
 				</a>
 			</div>
-		</div>
+		</article>
 	);
 };
 

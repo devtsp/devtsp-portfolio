@@ -1,4 +1,7 @@
 import { HashRouter as Router, Route } from 'react-router-dom';
+
+import styles from './App.module.scss';
+
 import Navbar from './components/Navbar.js';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -7,10 +10,10 @@ import TransitionGroup from './util/TransitionGroup.js';
 
 function App() {
 	return (
-		<div id="App">
+		<div className={styles.container}>
 			<Router>
 				<Navbar></Navbar>
-				<div id="body">
+				<main className={styles.body}>
 					<TransitionGroup>
 						<Route path="/" element={<About />} />
 						<Route path="/projects" element={<Projects />} />
@@ -22,7 +25,7 @@ function App() {
 							}
 						/>
 					</TransitionGroup>
-				</div>
+				</main>
 			</Router>
 		</div>
 	);

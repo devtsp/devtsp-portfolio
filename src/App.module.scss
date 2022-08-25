@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Raleway:wght@300;400&family=Work+Sans:wght@300;400;600&display=swap');
+
+/* 
+nav: raleway 300
+body: work sans 300 400 600
+*/
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'work sans', 'trebuchet ms', -apple-system, BlinkMacSystemFont,
+		verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 480px) {
+	:root {
+		font-size: 12px;
+	}
+
+	.ProjectCard .links-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ProjectCard a {
+		border-top: none;
+		width: fit-content;
+		margin: 0.4rem 2rem;
+		font-size: 1.6rem;
+	}
+
+	#Stack h1 {
+		font-size: 2rem;
+	}
+}

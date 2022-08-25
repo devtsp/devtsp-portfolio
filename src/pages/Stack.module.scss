@@ -1,0 +1,40 @@
+.container {
+	padding: 0 3rem;
+	text-align: center;
+	line-height: 1.4;
+
+	img {
+		height: 4rem;
+		margin: 0 0.8rem;
+		cursor: pointer;
+	}
+}
+
+.header {
+	font-size: 3rem;
+	margin: 3rem 0;
+	color: navy;
+	line-height: 1.2;
+
+	span {
+		color: orchid;
+	}
+}
+
+.separator {
+	width: 70%;
+	margin: 2rem auto;
+	height: 0.4rem;
+	background: linear-gradient(
+		to right,
+		transparent,
+		lavenderblush 10% 90%,
+		transparent
+	);
+}
+
+@media all and (max-width: 480px) {
+	.header {
+		font-size: 2rem;
+	}
+}
