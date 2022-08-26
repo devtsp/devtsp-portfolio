@@ -74,18 +74,6 @@ const projects = [
 			'/img/project%20previews/memotest/3.jpg',
 		],
 	},
-	{
-		title: 'football clubs manager',
-		deployed: true,
-		sourceCode: 'https://github.com/devtsp/football-clubs-vanilla-client',
-		site: 'https://devtsp.github.io/football-clubs-vanilla-client/',
-		previews: [
-			'/img/project%20previews/clubs/1.jpg',
-			'/img/project%20previews/clubs/2.jpg',
-			'/img/project%20previews/clubs/3.jpg',
-			'/img/project%20previews/clubs/4.jpg',
-		],
-	},
 ];
 
 export default projects;
