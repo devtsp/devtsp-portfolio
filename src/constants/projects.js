@@ -39,7 +39,7 @@ const projects = [
     title: 'currencies exchange rates/conversor',
     deployed: true,
     sourceCode: 'https://github.com/devtsp/exchange-rates-client',
-    site: 'https://devtsp.github.io/exchange-rates-client/',
+    site: 'https://exchange-rates-client.vercel.app/',
     previews: [
       '/img/project%20previews/exchange%20rates/1.jpg',
       '/img/project%20previews/exchange%20rates/2.jpg',
@@ -67,7 +67,7 @@ const projects = [
     title: 'memotest',
     deployed: true,
     sourceCode: 'https://github.com/devtsp/memotest-client',
-    site: 'https://devtsp.github.io/memotest-client/',
+    site: 'https://memotest-client.vercel.app/',
     previews: [
       '/img/project%20previews/memotest/1.jpg',
       '/img/project%20previews/memotest/2.jpg',
