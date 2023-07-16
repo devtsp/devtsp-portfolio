@@ -17,6 +17,15 @@ const About = () => {
 						<a href="mailto:paeztms@gmail.com" target="_blank" rel="noreferrer">
 							paeztms@gmail.com
 						</a>
+						<br />
+						Checkout my{' '}
+						<a
+							href="https://github.com/devtsp"
+							target="_blank"
+							rel="noreferrer"
+						>
+							github
+						</a>
 					</p>
 				</div>
 			</header>

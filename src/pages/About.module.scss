@@ -17,7 +17,7 @@
 		max-width: 50%;
 		max-height: 280px;
 		align-self: flex-start;
-		height: 100px;
+		height: 130px;
 	}
 
 	div {
@@ -30,10 +30,9 @@
 			flex-direction: column;
 			justify-content: center;
 			color: rgba(69, 69, 149, 0.486);
-			margin-bottom: 30px;
+			margin-bottom: 16px;
 
 			span:nth-child(1) {
-				margin-bottom: 5px;
 				font-size: 56px;
 				color: navy;
 			}
@@ -43,27 +42,26 @@
 			color: rgba(69, 69, 149, 0.486);
 			font-size: 26px;
 			text-align: left;
+			line-height: 34px;
 
 			a {
-				color: navy;
-				text-underline-offset: 5px;
+				text-decoration-thickness: 1px;
+				color: rgba(0, 128, 128, 0.692);
+				text-underline-offset: 2px;
+				font-size: 30px;
+				transition: all 250ms ease-in-out;
+
+				&:hover {
+					color: teal !important;
+					text-shadow: 0 0 20px rgba(132, 216, 174, 0.541);
+				}
 
 				&:visited {
-					color: navy;
+					color: teal;
 				}
 			}
 		}
 	}
-}
-
-.paragraph_important {
-	padding: 1rem 0;
-	margin: 1rem 0;
-	font-size: 2.2rem;
-}
-
-.paragraph_last {
-	font-size: 1.6rem;
 }
 
 .separator {
@@ -76,31 +74,4 @@
 		lavenderblush 10% 90%,
 		transparent
 	);
-}
-
-@media all and (max-width: 480px) {
-	.container {
-		padding: 1rem;
-	}
-
-	.header {
-		font-size: 3rem;
-		margin: 0 0 1rem !important;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.title {
-		display: block;
-		font-size: 2.4rem;
-		margin-top: 1rem;
-	}
-
-	.paragraph {
-		padding: 0 1rem !important;
-	}
-
-	.separator {
-		margin: 1rem auto;
-	}
 }
