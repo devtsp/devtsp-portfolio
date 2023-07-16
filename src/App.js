@@ -12,9 +12,9 @@ function App() {
 	return (
 		<div className={styles.container}>
 			<Router>
-				<Navbar></Navbar>
+				{/* <Navbar></Navbar> */}
 				<main className={styles.body}>
-					<TransitionGroup>
+					{/* <TransitionGroup>
 						<Route path="/" element={<About />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/stack" element={<Stack />} />
@@ -24,7 +24,10 @@ function App() {
 								<h1 style={{ textAlign: 'center', margin: '4rem' }}>404</h1>
 							}
 						/>
-					</TransitionGroup>
+					</TransitionGroup> */}
+					<About />
+					<Stack />
+					<Projects />
 				</main>
 			</Router>
 		</div>

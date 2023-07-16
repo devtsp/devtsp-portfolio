@@ -17,6 +17,13 @@ const sass = '/img/stack%20icons/sass.png';
 const jest = '/img/stack%20icons/jest.png';
 const cypress = '/img/stack%20icons/cypress.svg';
 const rtl = '/img/stack%20icons/testing-library.png';
+const azure = '/img/stack%20icons/azure.png';
+const sqlServer = '/img/stack%20icons/sql-server.png';
+const nextJs = '/img/stack%20icons/nextjs.png';
+const svelte = '/img/stack%20icons/svelte.png';
+const nestjs = '/img/stack%20icons/nestjs.svg';
+const materialui = '/img/stack%20icons/materialui.png';
+const tailwindcss = '/img/stack%20icons/tailwindcss.png';
 
 export {
 	html,
@@ -38,4 +45,11 @@ export {
 	jest,
 	cypress,
 	rtl,
+	azure,
+	sqlServer,
+	nextJs,
+	svelte,
+	nestjs,
+	materialui,
+	tailwindcss,
 };

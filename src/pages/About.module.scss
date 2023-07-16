@@ -7,52 +7,51 @@
 .header {
 	display: flex;
 	font-size: 3rem;
-	margin: 3rem 0;
+	margin: 100px 0 20px;
 	color: navy;
 	line-height: 1;
 	justify-content: center;
+	align-items: center;
 
 	img {
 		max-width: 50%;
 		max-height: 280px;
-	}
-}
-
-.title {
-	font-size: 3rem;
-	text-align: left;
-	padding-left: 3rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
-	span:nth-child(1) {
-		color: rgb(69, 69, 149);
+		align-self: flex-start;
+		height: 100px;
 	}
 
-	span:nth-child(2) {
-		color: rgb(114, 188, 188);
-	}
+	div {
+		padding-left: 30px;
 
-	span:nth-child(3) {
-		color: rgb(222, 214, 127);
-	}
+		h1 {
+			font-size: 36px;
+			text-align: left;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			color: rgba(69, 69, 149, 0.486);
+			margin-bottom: 30px;
 
-	span:nth-child(4) {
-		color: rgb(243, 181, 244);
-	}
-}
+			span:nth-child(1) {
+				margin-bottom: 5px;
+				font-size: 56px;
+				color: navy;
+			}
+		}
 
-.paragraph {
-	font-size: 2rem;
-	margin-bottom: 1.4rem;
+		p {
+			color: rgba(69, 69, 149, 0.486);
+			font-size: 26px;
+			text-align: left;
 
-	a {
-		color: navy;
-		text-underline-offset: 5px;
+			a {
+				color: navy;
+				text-underline-offset: 5px;
 
-		&:visited {
-			color: navy;
+				&:visited {
+					color: navy;
+				}
+			}
 		}
 	}
 }

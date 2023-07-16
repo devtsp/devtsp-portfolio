@@ -1,34 +1,42 @@
 .container {
-	padding: 0 3rem;
 	text-align: center;
 	line-height: 1.4;
+}
+
+.figuresContainer {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 80ch;
+	margin: 0 auto;
+}
+
+.figure {
+	display: inline-block;
 
 	img {
 		height: 4rem;
-		margin: 0 0.8rem;
+		margin: 0 auto 10px;
 		cursor: pointer;
+		display: block;
 	}
 }
 
 .header {
-	font-size: 3rem;
-	margin: 3rem 0;
+	font-size: 2rem;
+	margin: auto;
 	color: navy;
-	line-height: 1.2;
-
-	span {
-		color: orchid;
-	}
 }
 
 .separator {
 	width: 70%;
-	margin: 2rem auto;
+	margin: 60px auto;
 	height: 0.4rem;
 	background: linear-gradient(
 		to right,
 		transparent,
-		lavenderblush 10% 90%,
+		rgba(192, 121, 162, 0.151) 10% 90%,
 		transparent
 	);
 }
