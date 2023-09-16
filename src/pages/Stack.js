@@ -25,6 +25,7 @@ import {
 	materialui,
 	tailwindcss,
 	bootstrap,
+	firebase,
 } from '../constants/stack';
 
 const Stack = () => {
@@ -97,6 +98,12 @@ const Stack = () => {
 						<img src={process.env.PUBLIC_URL + azure} alt="azure" />
 					</abbr>
 					Azure
+				</div>
+				<div className={styles.figure}>
+					<abbr title="Firebase">
+						<img src={process.env.PUBLIC_URL + firebase} alt="firebase" />
+					</abbr>
+					Firebase
 				</div>
 				<div className={styles.figure}>
 					<abbr title="GraphQL">

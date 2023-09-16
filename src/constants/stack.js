@@ -24,6 +24,7 @@ const svelte = '/img/stack%20icons/svelte.png';
 const nestjs = '/img/stack%20icons/nestjs.svg';
 const materialui = '/img/stack%20icons/materialui.png';
 const tailwindcss = '/img/stack%20icons/tailwindcss.png';
+const firebase = '/img/stack%20icons/firebase.png';
 
 export {
 	html,
@@ -52,4 +53,5 @@ export {
 	nestjs,
 	materialui,
 	tailwindcss,
+	firebase,
 };
